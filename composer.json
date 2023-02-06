@@ -1,0 +1,23 @@
+{
+    "name": "lucas/php_scraper",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\PhpScraper\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lucas Souza",
+            "email": "lucasmancosouza@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
